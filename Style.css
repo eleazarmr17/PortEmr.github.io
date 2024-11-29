@@ -1,0 +1,229 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Encabezado fijo */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+/* Logo */
+.logo {
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+}
+
+.logo span {
+    color: #7d2ae8;
+}
+
+/* Navegación */
+.navigation {
+    margin-left: -300px;
+}
+
+.navigation a {
+    font-size: 1.1em;
+    color: #555;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.navigation a:hover {
+    color: #7d2ae8;
+}
+
+/* Botón de "Let's Talk" */
+.btn-talk {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.btn-talk:hover {
+    color: #7d2ae8;
+    background: transparent;
+}
+
+/* Sección de inicio */
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+/* Contenido de la sección */
+.content {
+    max-width: 500px;
+    color: #555;
+}
+
+.content h2 {
+    font-size: 3em;
+}
+
+.content h2 span {
+    color: #7d2ae8;
+}
+
+.content h4 {
+    font-size: 2em;
+}
+
+.content p {
+    padding: 10px 0 40px 0;
+}
+
+/* Botones de acción */
+.btn-group a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.btn-group a:hover:nth-child(1) {
+    color: #7d2ae8;
+    background: transparent;
+}
+
+.btn-group a:nth-child(2) {
+    color: #7d2ae8;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+
+.btn-group a:hover:nth-child(2) {
+    color: #fff;
+    background: #7d2ae8;
+}
+
+/* Iconos sociales */
+.social-icons {
+    position: absolute;
+    bottom: 50px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #7d2ae8;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #fff;
+    outline: 2px solid #7d2ae8;
+    transition: .3s;
+}
+
+.social-icons a:hover {
+    transform: translateY(-5px);
+}
+
+.social-icons a i {
+    color: #fff;
+}
+
+/* Sección de contacto */
+.contact p {
+    margin-top: 20px;
+}
+
+.contact {
+    padding-top: 100px;
+}
+
+.contact p:first-of-type {
+    margin-top: 20px;
+}
+
+.contact p:last-of-type {
+    margin-top: 20px;
+}
+
+/* Sección de acerca de mí */
+.about-me {
+    padding-top: 100px;
+}
+
+.about-me p:first-of-type {
+    margin-top: 20px;
+}
+
+/* Sección de acerca de mí */
+.about-me {
+    padding-top: 100px;
+    padding-left: 20px; /* Adds a margin to the left of the section */
+}
+
+/* For all <p> elements within this section */
+.about-me p {
+    margin-left: 20px; /* Adds a little more margin to the left of each paragraph */
+}
+
+/* Target only the paragraphs in the About Me section */
+.about-me p {
+    padding-left: 20px; /* Adjust this value as needed */
+}
+/* Target the list (ul) and its items (li) */
+.about-me ul {
+    padding-left: 20px; /* Adds left padding to the list */
+}
+
+.about-me li {
+    margin-left: 20px; /* Adds left margin to each list item */
+}
+
+
+/* Style for images */
+img {
+    margin-right: 20px; /* Adds space to the right of the first image */
+}
+
+/* Alternatively, you can add margin to both images to control spacing */
+img:first-of-type {
+    margin-right: 20px; /* Adds space to the right of the first image */
+}
+
+/* Adding space between paragraphs */
+p {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+/* Adding space between text sections (like h2, h3) */
+h2, h3 {
+    margin-bottom: 20px; /* Adds space below headings */
+}
